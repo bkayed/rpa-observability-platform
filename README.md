@@ -1,5 +1,5 @@
 # 🚀 RPA Observability Platform
-
+Built a full **Automation Observability Platform** to monitor, classify, and manage RPA incidents across enterprise environments.
 An end-to-end **Automation Observability & Incident Management Platform** designed to monitor, analyze, and manage RPA processes across UiPath  environment.
 
 ---
@@ -78,7 +78,7 @@ The platform is built around **three core engines**:
 * 🗂 **Full process inventory (not only active ones)**
 * ⚙️ **Config-driven architecture (no hardcoding)**
 * 🔗 **Multi-source integration (API + DB + Logs)**
-
+s
 ---
 
 ## 📂 Project Structure
@@ -102,7 +102,9 @@ rpa-observability-platform/
 │   └── tickets/
 │
 ├── docs/
-│   └── architecture.png        # (to be added)
+│   └── architecture.png        ## 🧠 Architecture
+
+![Architecture](docs/architecture.png)
 │
 ├── requirements.txt
 ├── .env.example
