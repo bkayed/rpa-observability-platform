@@ -1,0 +1,9 @@
+pandas
+requests
+pytz
+sqlalchemy
+pyodbc
+openpyxl
+pyyaml
+python-dotenv
+urllib3

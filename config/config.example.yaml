@@ -1,0 +1,23 @@
+orchestrator:
+  base_url: "https://your-orchestrator-url"
+  tenancy_name: "your-tenancy"
+  organization_unit_id: 4
+
+database:
+  driver: "ODBC Driver 17 for SQL Server"
+  server: "YOUR_SQL_SERVER"
+  database: "YOUR_DATABASE"
+
+email:
+  sender: "monitor@example.com"
+  smtp_server: "smtp.example.com"
+  smtp_port: 25
+
+paths:
+  output_dir: "./data/output"
+
+monitoring:
+  stale_threshold_minutes: 30
+  browser_error_lookback_minutes: 30
+  fault_lookback_hours: 12
+  reminder_minutes: 120
